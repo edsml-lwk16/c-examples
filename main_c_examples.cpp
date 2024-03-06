@@ -5,7 +5,9 @@
 #include <iostream> // Include the library that allows us to use cin and cout
 
 int main() {
-    HelloWorld();
+    HelloWorld printHelloWorld;
+    printHelloWorld.printGreeting();
+
     std::cout << std::endl;   // Adds an empty line between hello world and prime numbers
     
     Prime_numbers myPrime;  // Creating an object of the Prime_numbers class
